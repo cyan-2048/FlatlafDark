@@ -1,0 +1,64 @@
+{
+    "workbench.colorTheme": "NetBeans FlatLaf Dark Theme W77",
+    "editor.tokenColorCustomizations": {
+        "variables": "#A9B7C6",
+        "types": "#A9B7C6",
+        "textMateRules": [
+            {
+                "scope": "keyword.other.system.out.java",
+                "settings": {
+                    "foreground": "#FF5733", // Change this to your desired color
+                    "fontStyle": "bold" // Optional: make it bold or italic
+                }
+            },
+            {
+                "scope": "variable.parameter.java, entity.name.function.java, storage.modifier.import.java, storage.modifier.package.java, storage.type.object.array.java, storage.type.java, meta, punctuation.terminator.java, keyword, variable, variable.other, variable.other.readwrite, entity",
+                "settings": {
+                    "foreground": "#A9B7C6",
+                }
+            },
+            {
+                "scope": "keyword.other.import.java, constant.language.java, keyword.other.package.java",
+                "settings": {
+                    "foreground": "#CC7832",
+                }
+            },
+        ]
+    },
+    "editor.bracketPairColorization.enabled": false,
+    "highlight.regexes": {
+        "(System\\.)(out|in)": {
+            "regexFlags": "g",
+            "filterLanguageRegex": "java",
+            "decorations": [
+                {},
+                {
+                    "color": "#9876AA",
+                    "fontStyle": "italic"
+                }
+            ]
+        },
+        "(Math\\.)(\\w+)\\(":  {
+            "regexFlags": "g",
+            "filterLanguageRegex": "java",
+            "decorations": [
+                {},
+                {
+                    
+                    "fontStyle": "italic"
+                }
+            ]
+        },
+        "(public static void )(main)":  {
+            "regexFlags": "g",
+            "filterLanguageRegex": "java",
+            "decorations": [
+                {},
+                {
+                    "color": "#FFC66D",
+                    "fontStyle": "italic"
+                }
+            ]
+        }
+    }
+}
